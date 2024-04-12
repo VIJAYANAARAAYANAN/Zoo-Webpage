@@ -1,0 +1,100 @@
+.headpenguin {
+    background: url('../../assets/penguingroup.svg');
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    bottom: -20px;
+    top : 0;
+}
+
+.penguincards {
+    margin-left: 22px;
+    position: absolute;
+    border-radius: 10px;
+    bottom: -47%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    display: flex;
+    align-items: bottom;
+    justify-content: space-around;
+}
+
+.penguincards .cards {
+    margin-right: 40px;
+    width: 90%;
+    top:0;
+    border-radius:20px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+.allopening{
+    cursor: pointer;
+    padding-left: 15px;
+}
+.allopening button{
+    font-size: 16px;
+    cursor: pointer;
+    background: #fff;
+    border: none;
+    padding-left: 1x;
+}
+.allopening img{
+    padding-top:5px;
+    height: 20px;
+    margin-right: 10px; 
+}
+
+.penguincards .cards .topsubcard{
+    padding: 20px;
+    text-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: left;
+    justify-content: left;
+}
+.penguincards .cards .topsubcard img {
+    padding-right: 5px;
+}
+.penguincards .cards .topsubcard p{
+    font-size: 20px;
+    font-weight: 400px;
+    font-weight: bold;
+}
+
+.penguincards .cards img {
+    width: 40px;
+}
+
+.penguincards .cards .subcard {
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+}
+
+.penguincards .cards .subcard img {
+    width: 20px;
+    margin-right: 10px; /* Add some spacing between image and paragraph */
+}
+
+.penguincards .cards .subcard p{
+    color: #343434;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+.penguincards .cards > * {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add some spacing between cards */
+}
